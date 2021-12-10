@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 // Copyright 2021 John F Simon Jr; All Rights Reserved, unless otherwise stated
 
-const network = "rinkeby";
+const network = "mainnet";
 const infuraId = "557a0e2d1abd4be8bb9f3012a1d4abc8";
 const addresses = {
   rinkeby: "0x73a33f73b1ff0c63a07095de31b96af98d480d71",
