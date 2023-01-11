@@ -2,19 +2,12 @@
 // Copyright 2021 John F Simon Jr; All Rights Reserved, unless otherwise stated
 
 const network = "mainnet";
-const infuraId = "557a0e2d1abd4be8bb9f3012a1d4abc8";
 const addresses = {
   rinkeby: "0x73a33f73b1ff0c63a07095de31b96af98d480d71",
   mainnet: "0xf9a423b86afbf8db41d7f24fa56848f56684e43f",
 };
 
-// TODO: change this to Infura
 const provider = ethers.getDefaultProvider(network);
-
-// const provider =
-//   network === "rinkeby"
-//     ? new ethers.InfuraProvider("rinkeby", infuraId)
-//     : new ethers.InfuraProvider(null, infuraId);
 
 const BigNumber = ethers.BigNumber;
 const utils = ethers.utils;
